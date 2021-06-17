@@ -8,3 +8,9 @@
 [submodule "qemu"]
 	path = qemu
 	url = https://git.qemu.org/git/qemu.git
+[submodule "git@github.com:riscv/riscv-binutils-gdb.git"]
+	branch = fsf-gdb-10.1-with-sim
+[submodule "git@github.com:riscv/riscv-gcc.git"]
+	branch = riscv-gcc-10.2.0
+[submodule "git@github.com:riscv/riscv-dejagnu.git"]
+	branch = riscv-dejagnu-1.6
